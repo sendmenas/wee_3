@@ -1,0 +1,95 @@
+body {
+	font-size: 20px;
+}
+
+h1 {
+	text-transform: capitalize;
+}
+
+h3 {
+	text-transform: capitalize;
+}
+
+#header-nav {
+	border-radius: 0;
+	border: 0;
+}
+
+#header-container {
+	border-bottom: 1px solid #A9A9A9;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover {
+	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: left;
+	margin-top: -30px;
+}
+
+.navbar-nav {
+	margin: 0;
+}
+
+.navbar-collapse {
+	padding-right: 0;
+	padding-left: 0;	
+}
+.navbar-default .navbar-nav>li>a {
+        text-align: center;
+}
+
+.navbar-default .navbar-nav {
+	background-color: #DCDCDC;
+}
+
+a {
+	text-transform: capitalize
+}
+
+hr {
+	width: 95%;
+	margin-top: 0;
+	margin-bottom: 0;
+	border: 1px solid #696969;
+}
+/* Header end */
+
+/* HOME PAGE */
+#chicken, #beef, #sushi {
+	margin-bottom: 15px;
+	background-color: #f8f8f8;
+	border: 1px solid #A9A9A9;
+	border-radius: 3px;
+}
+
+#chicken, #beef, #sushi {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+
+/* END HOME PAGE */
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  /* Home Page */
+	.navbar-header .navbar-brand h1 {
+}
+
+#collapsable-nav {
+	border-top: 1px solid #A9A9A9;
+}
+  /* End Home Page */
+
+}
